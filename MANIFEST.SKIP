@@ -1,0 +1,12 @@
+\bCVS
+(^|/)\.
+
+^blib/
+^MYMETA
+^MANIFEST\.
+^Makefile$
+^inc/
+~$
+\.zip%
+\.tar\.gz$
+^pm_to_blib$
