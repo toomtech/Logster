@@ -7,6 +7,7 @@ author 'John Toomey <john.toomey@tradingtechnologies.com>';
 all_from 'lib/Logster.pm';
 include 'Module::AutoInstall';
 license 'GPLv2';
+perl_version '5.008002';
 
 requires 'threads'           => '1.31';
 requires 'threads::shared'   => '1.01';

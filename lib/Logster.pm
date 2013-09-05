@@ -23,7 +23,7 @@ sub fatal{   Logster->_enqueue_wrap( {&Logster::L_FATAL   => [ @_ ]} ) }
 
 package Logster {
 
-our $VERSION = 1.99_001;
+our $VERSION = 1.999_001;
 our @ISA = qw(Exporter);
 our @EXPORT = qw( L_DATE_BIGEND L_DATE_MIDEND L_DATE_LITEND L_DATE_ISO8601 
                   L_TIME_24HR L_TIME_12HR );
